@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahesh Pawar - Cloud & DevOps Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader-wrapper" id="loader">
+    <div class="loader"></div>
+    <div class="loader-text">LOADING...</div>
+  </div>
+
+  <div class="particles" id="particles"></div>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fas fa-cloud"></i>
+        <span>Mahesh Pawar</span>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#qualification">Qualification</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a href="Mahesh_Pawar_Resume.pdf" download class="resume-btn">
+          <i class="fas fa-download"></i> Resume
+        </a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <img src="mahesh-pawar.site_.jpg" alt="Mahesh Pawar" class="profile-photo">
+    <h1>Mahesh Pawar</h1>
+    <div class="typing-container">
+      <div class="typing-text" id="typingText"></div>
+    </div>
+    <div class="header-buttons">
+      <a href="#projects" class="btn btn-primary">
+        <i class="fas fa-briefcase"></i> View My Work
+      </a>
+      <a href="#contact" class="btn btn-secondary">
+        <i class="fas fa-envelope"></i> Let's Connect
+      </a>
+    </div>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/mpawar006" target="_blank" aria-label="LinkedIn" class="linkedin">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/mpawar006" target="_blank" aria-label="GitHub" class="github">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/mpawar006" target="_blank" aria-label="Twitter" class="twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="mailto:info@mahesh-pawar.site" aria-label="Email" class="email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="stats">
+      <div class="stats-container">
+        <div class="stat-card">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="30">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="4">0</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate Cloud & DevOps Engineer with hands-on experience in designing, implementing, and optimizing cloud solutions for robust and scalable applications. My expertise spans across CI/CD automation, infrastructure as code, containerization, and monitoring. I thrive on solving complex technical challenges and continuously learning new technologies to deliver high-quality, efficient, and reliable systems.</p>
+    </section>
+
+    <section id="qualification">
+      <h2>Education & Experience</h2>
+      <ul>
+        <li>
+          <div class="edu-icon"><i class="fas fa-building"></i></div>
+          <div class="edu-info">
+            <h3>Cloud & DevOps Engineer</h3>
+            <p><strong>Zensar Technologies</strong> | Jan 2024 - Present</p>
+          </div>
+        </li>
+        <li>
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-info">
+            <h3>Bachelor of Engineering</h3>
+            <p><strong>Savitribai Phule Pune University</strong> | 2019 - 2023</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Languages & Frameworks</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>GoLang</li>
+            <li>C++</li>
+            <li>HTML/CSS</li>
+            <li>Shell Scripting</li>
+            <li>Jenkins</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud Technologies</h3>
+          <ul>
+            <li>Amazon Web Services (AWS)</li>
+            <li>Microsoft Azure</li>
+            <li>Google Cloud Platform (GCP)</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-toolbox"></i> DevOps Tools</h3>
+          <ul>
+            <li>Terraform</li>
+            <li>Ansible</li>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Prometheus</li>
+            <li>Grafana</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Operating Systems</h3>
+          <ul>
+            <li>Linux (Ubuntu, CentOS)</li>
+            <li>Windows Server</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/project1.jpg" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3>CI/CD Pipeline with Jenkins & Docker</h3>
+            <p>Automated the build, test, and deployment process for a web application using Jenkins pipelines, Docker containers, and a private registry.</p>
+            <div class="project-tags">
+              <span class="project-tag">DevOps</span>
+              <span class="project-tag">Jenkins</span>
+              <span class="project-tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary"><i class="fas fa-eye"></i> View Project</a>
+              <a href="#" class="project-link secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/project2.jpg" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <h3>AWS Multi-Tier Architecture</h3>
+            <p>Designed and deployed a scalable and highly-available 3-tier web application on AWS using EC2, RDS, and Elastic Load Balancing.</p>
+            <div class="project-tags">
+              <span class="project-tag">AWS</span>
+              <span class="project-tag">Cloud</span>
+              <span class="project-tag">Architecture</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary"><i class="fas fa-eye"></i> View Project</a>
+              <a href="#" class="project-link secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="images/project3.jpg" alt="Project 3">
+          </div>
+          <div class="project-content">
+            <h3>Infrastructure as Code with Terraform</h3>
+            <p>Created reusable Terraform modules to provision and manage cloud infrastructure on Azure, including virtual machines, networks, and storage accounts.</p>
+            <div class="project-tags">
+              <span class="project-tag">Terraform</span>
+              <span class="project-tag">IaC</span>
+              <span class="project-tag">Azure</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary"><i class="fas fa-eye"></i> View Project</a>
+              <a href="#" class="project-link secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-aws"></i></div>
+          <div class="cert-info">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>Issued by Amazon Web Services</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-info">
+            <h3>Certified Ethical Hacker (CEH)</h3>
+            <p>Issued by EC-Council</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-users-cog"></i></div>
+          <div class="cert-info">
+            <h3>Microsoft Azure Administrator Associate</h3>
+            <p>Issued by Microsoft</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-wrench"></i></div>
+          <div class="cert-info">
+            <h3>Certified Kubernetes Administrator (CKA)</h3>
+            <p>Issued by CNCF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Mahesh is a brilliant engineer. His problem-solving skills and dedication to his work are unparalleled. He's a true asset to any team."</p>
+          <div class="testimonial-author">
+            <img src="images/testimonial1.jpg" alt="Author 1" class="author-img">
+            <div class="author-info">
+              <h4>Amit Sharma</h4>
+              <p>Senior DevOps Architect</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Working with Mahesh was a pleasure. His deep knowledge of cloud technologies and his ability to deliver on time exceeded all expectations."</p>
+          <div class="testimonial-author">
+            <img src="images/testimonial2.jpg" alt="Author 2" class="author-img">
+            <div class="author-info">
+              <h4>Priya Singh</h4>
+              <p>Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mqkvnwnb" method="POST" id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="john.doe@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" placeholder="Hello Mahesh, I'd like to talk about..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="submitBtn">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="logo">
+        <i class="fas fa-cloud"></i>
+        <span>Mahesh Pawar</span>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-tags">
+        <span class="footer-tag">Cloud</span>
+        <span class="footer-tag">DevOps</span>
+        <span class="footer-tag">AWS</span>
+        <span class="footer-tag">Python</span>
+        <span class="footer-tag">Terraform</span>
+      </div>
+      <p class="copyright">&copy; 2024 Mahesh Pawar. All rights reserved.</p>
+      <p class="made-by">Made with ❤️ and Code</p>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTopBtn">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
